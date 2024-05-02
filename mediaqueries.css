@@ -1,0 +1,129 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    section.dark {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .profile-pic {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto 2rem;
+    }
+
+    #profile .section__text {
+        padding-bottom: 2rem;
+    }
+
+    .experience-details-container {
+        margin: 0;
+    }
+
+    #projects .experience-details-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #experience .about-containers {
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .title {
+        line-height: 1;
+        font-size: 2rem;
+        padding: 0.5rem 0;
+        font-weight: 700;
+    }
+
+    section, #profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+    }
+
+    #profile img {
+        width: 200px;
+    }
+
+    #profile .section__text_p2 {
+        font-size: 1.25rem;
+    }
+
+    nav {
+        height: 13dvh;
+        height: 13svh;
+    }
+
+    #profile {
+        min-height: 83dvh;
+        min-height: 83svh;
+    }
+
+    #socials-container img {
+        width: auto;
+    }
+
+    #about .details-container h3 {
+        font-size: 1.25rem;
+    }
+
+    .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+
+    article {
+        font-size: 1rem;
+        width: 10rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        justify-content: center;
+    }
+    
+    .experience-sub-title {
+        font-size: 1.5rem;
+    }
+
+    .contact-info-container {
+        margin: 0;
+    }
+
+    .contact-info-container p, .nav-links {
+        font-size: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .article-container {
+        gap: 0rem;
+    }
+}
